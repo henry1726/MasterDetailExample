@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MasterDetailExample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile_image">Foto de perfil</string>
+    <string name="menu_pokemon">Personajes de pokemon</string>
+    <string name="menu_location">Ubicación</string>
+    <string name="text_hint_url">Ingrese link de foto</string>
+    <string name="text_hint_phrase">Ingrese texto</string>
+    <string name="text_button">Generar foto</string>
+    <string name="text_button_pick_placeholder">Seleccione imagen predeterminada</string>
+</resources>
