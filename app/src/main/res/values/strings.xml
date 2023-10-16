@@ -14,4 +14,7 @@
     <string name="text_hint_phrase">Ingrese texto</string>
     <string name="text_button">Generar foto</string>
     <string name="text_button_pick_placeholder">Seleccione imagen predeterminada</string>
+    <string name="text_title_pokemon">Nombre del pokemon:</string>
+    <string name="presiona_reintentar">Presiona para reintentar</string>
+    <string name="goto_activity">Ir a la pantalla 4</string>
 </resources>

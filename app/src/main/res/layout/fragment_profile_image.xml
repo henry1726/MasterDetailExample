@@ -22,11 +22,7 @@
             android:id="@+id/tiet_profile_photo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_hint_url">
-
-
-
-        </com.google.android.material.textfield.TextInputEditText>
+            android:hint="@string/text_hint_url"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,25 +41,9 @@
             android:id="@+id/tiet_phrase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_hint_phrase">
-
-
-
-        </com.google.android.material.textfield.TextInputEditText>
+            android:hint="@string/text_hint_phrase"/>
 
     </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_pick_placeholder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin8"
-        android:text="@string/text_button_pick_placeholder"
-        style="@style/TextAppearance.MaterialComponents.Button"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_phrase" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_generate_photo"
@@ -75,16 +55,45 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_pick_placeholder" />
+        app:layout_constraintTop_toBottomOf="@+id/til_phrase" />
 
     <ImageView
         android:id="@+id/iv_profile_photo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:visibility="gone"
+        android:src="@drawable/baseline_account_circle_24"
         android:layout_marginTop="@dimen/margin16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_generate_photo" />
+
+    <TextView
+        android:id="@+id/tv_capital_letters"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:textSize="@dimen/text_size_64"
+        android:layout_marginTop="@dimen/margin16"
+        android:textColor="@color/text_color_photo"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/background_photo_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_generate_photo"
-        tools:src="@drawable/baseline_account_circle_24" />
+        tools:text="RM" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_go_to_view4"
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_activity"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
