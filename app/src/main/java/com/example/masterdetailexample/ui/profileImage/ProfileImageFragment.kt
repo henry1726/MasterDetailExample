@@ -1,5 +1,6 @@
 package com.example.masterdetailexample.ui.profileImage
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.masterdetailexample.R
 import com.example.masterdetailexample.databinding.FragmentProfileImageBinding
+import com.example.masterdetailexample.ui.location.MapActivity
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 
@@ -68,7 +70,7 @@ class ProfileImageFragment : Fragment() {
 
             }
             btnGoToView4.setOnClickListener {
-                findNavController().navigate(R.id.action_nav_profile_image_to_nav_location)
+                startActivity(Intent(requireContext(), MapActivity::class.java))
             }
         }
     }

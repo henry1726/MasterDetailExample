@@ -17,4 +17,12 @@
     <string name="text_title_pokemon">Nombre del pokemon:</string>
     <string name="presiona_reintentar">Presiona para reintentar</string>
     <string name="goto_activity">Ir a la pantalla 4</string>
+    <string name="text_title_locations">Coordenadas guardadas:</string>
+    <string name="text_title_coordinate">Coordenadas:</string>
+    <string name="text_title_time">Hora de captura:</string>
+    <string name="text_notification">Se está compartiendo tu ubicación en segundo plano</string>
+    <string name="text_title_notification">MasterDetail\n</string>
+    <string name="title_location_permission">¡Atención!</string>
+    <string name="text_location_permission">Se requieren los siguientes permisos</string>
+    <string name="ok">Aceptar</string>
 </resources>

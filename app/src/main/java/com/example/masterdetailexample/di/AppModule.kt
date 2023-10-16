@@ -48,7 +48,7 @@ object AppModule {
     fun provideUserDatabase(@ApplicationContext context: Context) : AppDataBase = Room.databaseBuilder(
         context,
         AppDataBase::class.java,
-        "masterDetail_database"
+        Constants.NAME_DATABASE
     ).allowMainThreadQueries()
         .fallbackToDestructiveMigration()
         .build()

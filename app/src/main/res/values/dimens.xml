@@ -12,5 +12,6 @@
     <dimen name="margin16">16dp</dimen>
     <dimen name="margin32">32dp</dimen>
     <dimen name="margin64">64dp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
     <dimen name="text_size_64">64sp</dimen>
 </resources>
